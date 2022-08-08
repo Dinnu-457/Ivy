@@ -7,8 +7,8 @@ public class Task2 {
         int s=0,sub=0;
         for(int i=0;i<7;i++){
             a[i]=sc.nextInt();
-            if(a[i]>8){
-                sub=sub+(a[i]-8);
+            if(i<5){
+                sub=sub+(a[i]);
             }
         }
         for(int i=0;i<7;i++) {
@@ -16,7 +16,8 @@ public class Task2 {
                 s += a[i] * 100;
             } else if (a[i] > 8 && sub < 40) {
                 s += a[i] * 100 + (a[i] - 8) * 15;
-            } else {
+            }
+            else {
                 if (i == 5) {
                     s += a[i] * 100 + 25 + 0.25 * a[i];
                 } else if (i == 6) {
