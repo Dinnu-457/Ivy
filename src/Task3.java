@@ -9,7 +9,7 @@ public class Task3 {
            for(int k=0;k<=i;k++){
                System.out.print(a);
            }
-           for(int j=3;j>=i;j--){
+           for(int j=n-1;j>=i;j--){
                System.out.print(b);
            }
             System.out.println();
