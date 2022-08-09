@@ -32,7 +32,7 @@ public class OneD {
                 max = i;
             }
         }
-        System.out.println(max);
+        System.out.println("mode: "+max);
 
     }
 }
