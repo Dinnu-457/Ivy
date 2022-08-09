@@ -19,7 +19,7 @@ public class StringConcept {
             System.out.println("equal");
         }
         else{
-            System.out.println("false");
+            System.out.println("not equal");
         }
 
     }
