@@ -20,7 +20,7 @@ public class OneD {
         //median
         if(size%2==0){
             int median=a[size/2]+a[(size/2)+1];
-            System.out.println("median "+median/2);
+            System.out.println("median :"+median/2);
         }
         else{
             System.out.println("median "+a[size/2]);

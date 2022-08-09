@@ -15,7 +15,7 @@ public class StringConcept {
         }
         StringBuffer sb=new StringBuffer(s1);
         System.out.print(sb.reverse());
-        if(s1.equals(s2)){
+        if(s1.equalsIgnoreCase(s2)){
             System.out.println("equal");
         }
         else{
